@@ -1,0 +1,4 @@
+username=pruser1
+password=Sysadmin@123
+url=http://172.1.254.215:90/IPPGeneric
+excelToExcute=.//testdata//testdata.xlsx

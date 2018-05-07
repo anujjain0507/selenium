@@ -1,0 +1,5 @@
+ControlFocus("FOpen","","Edit1")
+Sleep(1000)
+ControlSetText("Open","","Edit1","D:\Project\SampleInvoices\TRW2\WithBC\01069077-1.tif")
+Sleep(1000)
+ControlClick("Open","","Button1")
