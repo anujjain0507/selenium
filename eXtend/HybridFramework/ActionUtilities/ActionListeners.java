@@ -19,43 +19,41 @@ public class ActionListeners implements ITestListener {
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult arg0) {
-//		try {
-//			System.out.println("TestCase Failed, Screenshot Taken. ScreenShot Name= "+arg0.getInstanceName());
-//			TakeScreenshot.TakeScrSht(arg0.getInstanceName());
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		try {
+			System.out.println("TestCase Failed, Screenshot Taken. ScreenShot Name= "+arg0.getInstanceName());
+			TakeScreenshot.TakeScrSht(arg0.getInstanceName());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 		
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult arg0) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void onTestStart(ITestResult arg0) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult arg0) {
-//		try {
-//			System.out.println("TestCase Passed, Screenshot Taken. ScreenShot Name= "+arg0.getInstanceName());
-//			TakeScreenshot.TakeScrSht(arg0.getInstanceName());
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		try {
+			System.out.println("TestCase Passed, Screenshot Taken. ScreenShot Name= "+arg0.getInstanceName());
+			TakeScreenshot.TakeScrSht(arg0.getInstanceName());
+		} catch (Exception e) {
+		System.out.println(e.getMessage());
+		}
 		
 	}
 

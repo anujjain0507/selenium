@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 
 public class ExcelRead {
 
-	@SuppressWarnings({ "deprecation", "static-access" })
+//	@SuppressWarnings({ "deprecation", "static-access" })
 	@DataProvider(name="hybridData")
 	
 	public static Object[][] StepsFeed() throws Exception

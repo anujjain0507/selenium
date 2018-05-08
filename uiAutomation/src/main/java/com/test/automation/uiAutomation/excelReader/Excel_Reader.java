@@ -3,7 +3,6 @@ package com.test.automation.uiAutomation.excelReader;
 
 import java.io.FileInputStream;
 
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -27,7 +26,7 @@ public class Excel_Reader {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
+//	@SuppressWarnings("deprecation")
 	public String getCellData(String sheetName, String colName, int rowNum) {
 		try {
 			int col_Num = 0;
