@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="DGSL Application Test" name="Validate dgsl Home Page Test" time="0">
+<system-out><![CDATA[Given user open the browser.................................................skipped
+Then user is on login page..................................................skipped
+Then user log into app......................................................skipped
+Then validate logged in user name...........................................skipped
+Then verify the activity matrix link........................................skipped
+Then verify the inbox link..................................................skipped
+Then verify the search link.................................................skipped
+Then verify the vendor tab..................................................skipped
+Then verify the my profile tab..............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
