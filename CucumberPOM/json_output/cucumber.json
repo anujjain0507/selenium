@@ -12,8 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7255236806,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user open the browser",
@@ -24,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 125998866,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user is on login page",
@@ -36,8 +34,7 @@
           },
           {
             "result": {
-              "duration": 439943266,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user log into app",
@@ -48,8 +45,7 @@
           },
           {
             "result": {
-              "duration": 7406720481,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "validate logged in user name",
@@ -60,8 +56,7 @@
           },
           {
             "result": {
-              "duration": 99527659,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "verify the activity matrix link",
@@ -72,8 +67,7 @@
           },
           {
             "result": {
-              "duration": 50530460,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "verify the inbox link",
@@ -84,8 +78,7 @@
           },
           {
             "result": {
-              "duration": 43613,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "verify the search link",
@@ -96,8 +89,7 @@
           },
           {
             "result": {
-              "duration": 44371,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "verify the vendor tab",
@@ -108,8 +100,7 @@
           },
           {
             "result": {
-              "duration": 51956,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "verify the my profile tab",
@@ -130,8 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 584541112,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "User click on the Vendor Registration Menu",
@@ -142,8 +132,7 @@
           },
           {
             "result": {
-              "duration": 369604435,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Click on the add button",
@@ -154,8 +143,7 @@
           },
           {
             "result": {
-              "duration": 1866676527,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "enter the \"MSC\" and \"Electrical\" and \"pooja\" and\"pooja.patil@datamatics.com\" and \"1236547895\"",
@@ -195,8 +183,7 @@
           },
           {
             "result": {
-              "duration": 446540115,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "select the \"Self Registration\"",
@@ -216,8 +203,7 @@
           },
           {
             "result": {
-              "duration": 517998077,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "submit the record",
@@ -228,8 +214,7 @@
           },
           {
             "result": {
-              "duration": 846301953,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "close the transaction",
@@ -240,8 +225,7 @@
           },
           {
             "result": {
-              "duration": 5000443330,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "Wait for 5 sec",
@@ -252,9 +236,7 @@
           },
           {
             "result": {
-              "duration": 1522115087,
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003ctd class\u003d\"\" role\u003d\"gridcell\"\u003e...\u003c/td\u003e is not clickable at point (942, 277). Other element would receive the click: \u003clabel class\u003d\"txt1\" for\u003d\"txtActivit...\"\u003eRemark\u003c/label\u003e\n  (Session info: chrome\u003d65.0.3325.181)\n  (Driver info: chromedriver\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027SDF4110IPM096\u0027, ip: \u002710.254.19.60\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_151\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir\u003dC:\\Users\\JAIN~1.ANU\\AppData\\Local\\Temp\\scoped_dir4424_28602}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d65.0.3325.181, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: a631f8d03e268a5c870dc90d8a96f849\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)\r\n\tat com.qa.pages.VendorManualRegPage.select_specific_vendor(VendorManualRegPage.java:98)\r\n\tat com.qa.stepDefinations.RegistrationPageSteps.open_the_Specific_records(RegistrationPageSteps.java:55)\r\n\tat ✽.Then open the Specific records(C:/Users/jain.anuj/workspace/CucumberPOM/src/main/java/com/qa/features/dgsl.feature:24)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "open the Specific records",
@@ -309,6 +291,6 @@
     "description": "",
     "id": "dgsl-application-test",
     "keyword": "Feature",
-    "uri": "C:/Users/jain.anuj/workspace/CucumberPOM/src/main/java/com/qa/features/dgsl.feature"
+    "uri": "C:/Users/jain.anuj/git/selenium/CucumberPOM/src/main/java/com/qa/features/dgsl.feature"
   }
 ]

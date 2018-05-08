@@ -12,10 +12,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="C:/Users/anuj.jain/workspace/DGSL_BDD/src/main/java/Features/manualVendormap.feature",
 		glue={"stepDefinations"},
-//		format= {"preety","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
+		plugin= {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
 		monochrome = true,
 		strict = true,
-		dryRun = false
+		dryRun = true
 		)
 public class TestRunner {
 
