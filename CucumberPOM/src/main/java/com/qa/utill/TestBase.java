@@ -20,7 +20,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\jain.anuj\\workspace\\CucumberPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\jain.anuj\\git\\selenium\\CucumberPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
 				prop.load(fis);
 		} catch (IOException e) {
 			e.getMessage();
@@ -31,7 +31,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\jain.anuj\\workspace\\CucumberPOM\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\jain.anuj\\git\\selenium\\CucumberPOM\\Driver\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if (browserName.equals("ff")) {
