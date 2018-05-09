@@ -1,8 +1,8 @@
 package com.qa.stepDefinations;
 
 import com.qa.pages.VendorManualRegPage;
-import com.qa.utill.TestBase;
-import com.qa.utill.TestUtil;
+import com.qa.utility.TestBase;
+import com.qa.utility.TestUtil;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

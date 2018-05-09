@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qa.utill.TestBase;
+import com.qa.utility.TestBase;
 
 public class VendorManualRegPage extends TestBase {
 

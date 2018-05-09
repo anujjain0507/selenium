@@ -1,4 +1,4 @@
-package com.qa.utill;
+package com.qa.utility;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,13 +1,13 @@
-package com.qa.utill;
+package com.qa.utility;
 
-import org.junit.After;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import cucumber.api.Scenario;
+import cucumber.api.java.After;
 
-
-public class Hook extends TestBase {
+public class Hook extends TestBase{
 //	@After
 //	public void FailureScreenShot(Scenario scenario) throws Exception
 //	{
@@ -25,7 +25,7 @@ public class Hook extends TestBase {
 		if(scenario.isFailed()){
 			TakesScreenshot scr = (TakesScreenshot)driver;
 			final byte[] file = scr.getScreenshotAs(OutputType.BYTES);
-			scenario.embed(file, "C:\\Users\\anuj.jain\\workspace\\CucumberPOM\\ScreenShot"+ System.currentTimeMillis() +".jpeg");
+			scenario.embed(file, "C:\\Users\\jain.anuj\\git\\selenium\\CucumberPOM\\ScreenShot"+ System.currentTimeMillis() +".jpeg");
 //			FileUtils.copyFile(file, new File("C:\\Users\\anuj.jain\\workspace\\CucumberPOM\\ScreenShot"+ System.currentTimeMillis() +".jpeg"));
 			}
 	}

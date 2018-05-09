@@ -1,4 +1,4 @@
-package com.qa.utill;
+package com.qa.utility;
 
 
 

@@ -6,7 +6,7 @@ import junit.framework.Assert;
 
 import com.qa.pages.InboxPage;
 import com.qa.pages.LoginPage;
-import com.qa.utill.TestBase;
+import com.qa.utility.TestBase;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
