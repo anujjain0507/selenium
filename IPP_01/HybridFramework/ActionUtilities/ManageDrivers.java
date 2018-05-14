@@ -49,7 +49,7 @@ public class ManageDrivers {
 
 	private static WebDriver LaunchChrome(String url) throws Exception {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\jain.anuj\\workspace\\IPP_01\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\jain.anuj\\git\\selenium\\IPP_01\\Drivers\\chromedriver.exe");
 	    WebDriver  driver = new ChromeDriver();
 	    driver.get(url);
 	    driver.manage().window().maximize();

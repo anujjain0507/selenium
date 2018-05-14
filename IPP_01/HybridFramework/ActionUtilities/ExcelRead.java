@@ -64,7 +64,8 @@ public class ExcelRead {
 		       FileInputStream fis=new FileInputStream(src);
 		 
 		   // Load workbook
-		       XSSFWorkbook wb=new XSSFWorkbook(fis);
+		       @SuppressWarnings("resource")
+			XSSFWorkbook wb=new XSSFWorkbook(fis);
 		   
 		   // Load sheet- Here we are loading first sheetonly
 		       XSSFSheet sh1= wb.getSheet(Sheet);
@@ -86,6 +87,7 @@ public class ExcelRead {
 				return object;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public static String readCell(int i, int j) throws Exception
 	{
 
@@ -101,7 +103,8 @@ public class ExcelRead {
        FileInputStream fis=new FileInputStream(src);
  
    // Load workbook
-       XSSFWorkbook wb=new XSSFWorkbook(fis);
+       @SuppressWarnings("resource")
+	XSSFWorkbook wb=new XSSFWorkbook(fis);
    
    // Load sheet- Here we are loading first sheetonly
        XSSFSheet sh1= wb.getSheetAt(1);

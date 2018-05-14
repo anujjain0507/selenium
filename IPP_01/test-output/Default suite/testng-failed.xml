@@ -5,7 +5,7 @@
     <classes>
       <class name="Executer.Execute">
         <methods>
-          <include name="getSteps" invocation-numbers="148 156 161 162 178 179 199 204 206 232 400 427"/>
+          <include name="getSteps" invocation-numbers="23 28 30 48 55 56 72 73 109 115 119 120 133 199 400 427"/>
         </methods>
       </class> <!-- Executer.Execute -->
     </classes>
