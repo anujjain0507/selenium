@@ -1,5 +1,8 @@
 package string_concept;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 
@@ -45,6 +48,16 @@ public class Reverse {
 			System.out.print(arr[i] + " ");
 		}
 		}
+	
+	public static void Reverse_Paragraph() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Please enter the Paragraph");
+		String str = br.readLine();
+		String[] sentence = str.split(" ");
+		for(int i=sentence.length-1;i>=0;i--) {
+			System.out.print(sentence[i]+ " ");
+		}
+	}
 	public static void NumberSwap() {
 		int a = 15;
 		int b = 10;
@@ -69,12 +82,13 @@ public class Reverse {
 		System.out.println("Sum of the all digit is : "+sum);
 		sc.close();
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 //		reverseString();
 //		reverseInterger();
 //		reverseArray();
 //		NumberSwap();
-		addNumber();
+//		addNumber();
+		Reverse_Paragraph();
 		
 		
 
