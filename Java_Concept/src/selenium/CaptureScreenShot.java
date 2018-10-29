@@ -1,4 +1,4 @@
-package ipp;
+package selenium;
 
 import java.io.File;
 import java.io.IOException;

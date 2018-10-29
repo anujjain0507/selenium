@@ -1,4 +1,4 @@
-package ipp;
+package selenium;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
