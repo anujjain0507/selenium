@@ -9,12 +9,13 @@ import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
 
+
 public class VarifyPDF {
 
 	public static void main(String[] args) throws IOException {
 		
 		File file = new File("D:\\Anuj\\CP_AnnualPremium_57128566_FY 2017-2018.pdf");
-		ileInputStream fis = new FileInputStream(file);
+		FileInputStream fis = new FileInputStream(file);
 		
 		PDFParser parser = new PDFParser(fis);
 		parser.parse();
