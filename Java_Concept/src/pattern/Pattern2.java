@@ -1,3 +1,15 @@
+/*
+1 
+1 1 
+1 1 1 
+1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 
+1 1 1 
+1 1 
+1 
+*/
+
 package pattern;
 
 import java.util.Scanner;
@@ -11,13 +23,13 @@ public class Pattern2 {
 		System.out.println("** printing the pattern **");
 		for(int i = 0; i<= row;i++) {
 			for(int j=1; j<= i;j++) {
-				System.out.print("*"+ " ");
+				System.out.print("1"+ " ");
 			}
 			System.out.println();
 		}
 		for (int i=row;i>= 1;i--) {
 			for(int j =1; j<i;j++) {
-				System.out.print("*" + " ");
+				System.out.print("1" + " ");
 			}
 			System.out.println();
 		}

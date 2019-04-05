@@ -15,7 +15,7 @@ public class MaximumAndMinimum {
 
 	public static void main(String[] args) {
 		int[] arr = {10,15,54,54,24,98,102,35};
-		for(int i = 0; i<= arr.length;i++) {
+		for(int i = 0; i< arr.length;i++) {
 			System.out.print(arr[i] + " ");
 		}
 		System.out.println();

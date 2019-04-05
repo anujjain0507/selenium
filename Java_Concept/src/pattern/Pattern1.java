@@ -1,3 +1,13 @@
+/*
+** printing the pattern...*
+
+1 
+0 1 
+0 0 1 
+0 0 0 1 
+0 0 0 0 1 
+
+*/
 package pattern;
 
 import java.util.Scanner;

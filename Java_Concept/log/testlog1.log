@@ -1,0 +1,6 @@
+2019-04-04 12:40:07,313 [main] INFO LoggerDemo - Driver Intilize
+2019-04-04 12:46:17,918 [main] INFO LoggerDemo - Driver Intilize
+2019-04-04 12:46:20,765 [main] INFO LoggerDemo - Waiting for 10 Second
+2019-04-04 12:46:21,915 [main] INFO LoggerDemo - Window Maximize
+2019-04-04 12:46:22,153 [main] INFO LoggerDemo - Enter User name
+2019-04-04 12:46:22,383 [main] INFO LoggerDemo - Enter Password

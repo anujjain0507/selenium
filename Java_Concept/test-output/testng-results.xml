@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23493" started-at="2019-04-03T06:35:40Z" finished-at="2019-04-03T06:36:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23493" started-at="2019-04-03T06:35:40Z" finished-at="2019-04-03T06:36:03Z">
+      <class name="selenium.VerifyElementPresent">
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenium.VerifyElementPresent@4671e53b]" name="setup" is-config="true" duration-ms="6207" started-at="2019-04-03T06:35:40Z" finished-at="2019-04-03T06:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FetchAllDataFromDropdown()[pri:1, instance:selenium.VerifyElementPresent@4671e53b]" name="FetchAllDataFromDropdown" duration-ms="16984" started-at="2019-04-03T06:35:46Z" finished-at="2019-04-03T06:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchAllDataFromDropdown -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:selenium.VerifyElementPresent@4671e53b]" name="TearDown" is-config="true" duration-ms="256" started-at="2019-04-03T06:36:03Z" finished-at="2019-04-03T06:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- selenium.VerifyElementPresent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -3,16 +3,17 @@ package array_Concept;
 public class Fibonacci {
 
 	public static void main(String[] args) {
-		int n1= 0; int n2=1; int n3=0;
-		System.out.print(n1+"+"+n2 );
-		for(int i=2;i<=10;i++) {
-			n3 = n1+n2;
-			n1= n2;
-			n2=n3;
-			System.out.print("+"+n3);
+		int num1 = 0;
+		int num2 =1;
+		int num3;
+		System.out.print(num1+ " "+num2);
+		for(int i = 2;i<10;i++) {
+		num3 = num1+num2;
+		num1 = num2;
+		num2 = num3;
+		System.out.print(" "+num3+" ");
 		}
 		
-
 	}
 
 }

@@ -2,6 +2,7 @@ package selenium;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,43 +14,45 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrokenLinks {
-
-	private static WebDriver driver;
-
-	public static void main(String[] args) throws InterruptedException, Exception, IOException {
+	static WebDriver driver;
+	
+	public static void main(String [] args) throws MalformedURLException, IOException, InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\\\Users\\\\jain.anuj\\\\workspace\\\\FreeCRM\\\\Driver\\\\chromedriver.exe");
+				"C:\\Users\\jain.anuj\\workspace\\FreeCRM\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
-		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-
 		driver.findElement(By.name("username")).sendKeys("naveenk");
 		driver.findElement(By.name("password")).sendKeys("test@123");
 		driver.findElement(By.xpath(".//input[@type='submit']")).click();
 		driver.switchTo().frame("mainpanel");
-		Thread.sleep(3000);
 		
-		List<WebElement> linkList = driver.findElements(By.tagName("a"));
-		linkList.addAll(driver.findElements(By.tagName("img")));
-		System.out.println("Size of the total link and images--->"+linkList.size());
+		List<WebElement> linklist = driver.findElements(By.tagName("a"));
+		linklist.addAll(driver.findElements(By.tagName("img")));
 		
-		List<WebElement>ActiveLink = new ArrayList<WebElement>();
-		for(int i = 0; i<linkList.size();i++) {
-			System.out.println(linkList.get(i).getAttribute("href"));
-			if(linkList.get(i).getAttribute("href") != null && (!linkList.get(i).getAttribute("href").contains("javascript"))) {
-				ActiveLink.add(linkList.get(i));
+		
+		System.out.println("Size of all link --->"+linklist.size());
+		
+		List<WebElement> activeList  = new ArrayList<WebElement>();
+		
+		for(int i = 0 ; i < linklist.size();i++) {
+			System.out.println(linklist.get(i).getAttribute("href"));
+			if(linklist.get(i).getAttribute("href")!= null && (!linklist.get(i).getAttribute("href").contains("javascript"))) {
+				activeList.add(linklist.get(i));
 			}
 		}
-		System.out.println("Size of the active link and Images---->" + ActiveLink.size());
-		for(int j=0; j<ActiveLink.size();j++) {
-			HttpURLConnection connection = (HttpURLConnection)new URL(ActiveLink.get(j).getAttribute("href")).openConnection();
-			String response = connection.getResponseMessage();
-			int responsecode= connection.getResponseCode();
+		System.out.println("Size of all link --->"+ activeList.size());
+		
+		for(int j= 0 ; j< activeList.size();j++) {
+			
+			HttpURLConnection connection = (HttpURLConnection) new URL(activeList.get(j).getAttribute("href")).openConnection();
+			int code = connection.getResponseCode();
+			String message = connection.getResponseMessage();
 			connection.disconnect();
-			System.out.println(ActiveLink.get(j).getAttribute("href")+"---->"+responsecode+"="+response);
+			System.out.println(activeList.get(j).getAttribute("href")+"---->"+code+"---->"+message);
 		}
-		driver.close();
-
 	}
-}
+	}
+	
+	
