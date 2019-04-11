@@ -263,7 +263,19 @@ public class Reverse {
 		System.out.println(Uppar_case.trim());
 	}
 
+	public static void Factorial() {
+		int fact = 1;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please Enter the Number");
+		int num = sc.nextInt();
+		for (int i = 1; i <= num; i++) {
+			fact = fact * i;
+		}
+		System.out.println(fact);
+	}
+
 	public static void main(String[] args) throws IOException {
+
 		// reverseString();
 		// Reverse_ForLoop();
 		// reverseInterger();
@@ -275,11 +287,12 @@ public class Reverse {
 		// reverseStringWithPreserveSpace("I am not String");
 		// characterPercentage("Tiger Runs @ The Speed Of 100 km/hour.");
 		// ReverseEachWord("my name is anuj");
-		 SortingAlphabet();
+		// SortingAlphabet();
 		// Total_Number_of_the_three_digit_number();
 		// OddNumber();
 		// CountNumberSpaceChar();
-		CaptalisedFirstWord();
-	}
+		// CaptalisedFirstWord();
+		Factorial();
 
+	}
 }

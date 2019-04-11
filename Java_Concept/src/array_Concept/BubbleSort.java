@@ -29,13 +29,6 @@ public class BubbleSort {
 			}
 		}
 		
-//		for(int i = 0;i<n;i++) {
-//			for(int j = 1;j<n-i;j++) {
-//				if(arr[j]-arr[i] > arr[i]) {
-//					arr[i]=arr[j];
-//				}
-//			}
-//	}
 	
 }
 }
