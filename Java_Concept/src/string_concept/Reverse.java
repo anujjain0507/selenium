@@ -261,6 +261,8 @@ public class Reverse {
 			Uppar_case += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ";
 		}
 		System.out.println(Uppar_case.trim());
+		sc.close();
+		lineScan.close();
 	}
 
 	public static void Factorial() {
@@ -272,27 +274,45 @@ public class Reverse {
 			fact = fact * i;
 		}
 		System.out.println(fact);
+		sc.close();
+	}
+
+	public static void Characterfrequency() {
+		int freq = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String ");
+		String str = sc.nextLine().toLowerCase();
+		System.out.println("Enter the Character ");
+		char c = sc.next().charAt(0);
+		
+		for(int i = 0;i<str.length();i++) {
+			if(c==str.charAt(i)) {
+				freq = freq+1;
+			}
+		}
+		System.out.println("Frequency of " + c + " is : " + freq);
 	}
 
 	public static void main(String[] args) throws IOException {
 
-		// reverseString();
-		// Reverse_ForLoop();
-		// reverseInterger();
-		// reverseArray();
-		// Reverse_Paragraph();
-		// NumberSwap();
-		// addNumber();
-		// Duplicate_Number_In_Array();
-		// reverseStringWithPreserveSpace("I am not String");
-		// characterPercentage("Tiger Runs @ The Speed Of 100 km/hour.");
-		// ReverseEachWord("my name is anuj");
-		// SortingAlphabet();
-		// Total_Number_of_the_three_digit_number();
-		// OddNumber();
-		// CountNumberSpaceChar();
-		// CaptalisedFirstWord();
-		Factorial();
+//		 reverseString();
+//		 Reverse_ForLoop();
+//		 reverseInterger();
+//		 reverseArray();
+//		 Reverse_Paragraph();
+//		 NumberSwap();
+//		 addNumber();
+//		 Duplicate_Number_In_Array();
+//		 reverseStringWithPreserveSpace("I am not String");
+//		 characterPercentage("Tiger Runs @ The Speed Of 100 km/hour.");
+//		 ReverseEachWord("my name is anuj");
+//		 SortingAlphabet();
+//		 Total_Number_of_the_three_digit_number();
+//		 OddNumber();
+//		 CountNumberSpaceChar();
+//		 CaptalisedFirstWord();
+//		 Factorial();
+//		Characterfrequency();
 
 	}
 }
