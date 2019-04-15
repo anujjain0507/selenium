@@ -6,7 +6,7 @@ import java.util.Set;
 
 
 
-public class duplicateCharacter {
+public class DuplicateCharacter {
 	public static void main(String args[]) {
 		repetedCharacter("automation");
 	}

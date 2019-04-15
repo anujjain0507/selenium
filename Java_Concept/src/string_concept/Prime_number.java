@@ -1,4 +1,4 @@
-package number_Concept;
+package string_concept;
 
 import java.util.Scanner;
 

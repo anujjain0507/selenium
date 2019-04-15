@@ -2,7 +2,7 @@ package string_concept;
 
 import java.util.Scanner;
 
-public class duplicate_Character_Without_Collection {
+public class Duplicate_Character_Without_Collection {
 
 	static final int MAX_CHAR=256;
 	

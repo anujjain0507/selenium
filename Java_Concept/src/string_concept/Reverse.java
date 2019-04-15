@@ -250,14 +250,11 @@ public class Reverse {
 	public static void CaptalisedFirstWord() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter the Sentance:");
-
 		String str = sc.nextLine();
-
 		String Uppar_case = "";
 		Scanner lineScan = new Scanner(str);
 		while (lineScan.hasNext()) {
 			String word = lineScan.next();
-
 			Uppar_case += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ";
 		}
 		System.out.println(Uppar_case.trim());
@@ -284,13 +281,13 @@ public class Reverse {
 		String str = sc.nextLine().toLowerCase();
 		System.out.println("Enter the Character ");
 		char c = sc.next().charAt(0);
-		
 		for(int i = 0;i<str.length();i++) {
 			if(c==str.charAt(i)) {
 				freq = freq+1;
 			}
 		}
 		System.out.println("Frequency of " + c + " is : " + freq);
+		sc.close();
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -310,7 +307,7 @@ public class Reverse {
 //		 Total_Number_of_the_three_digit_number();
 //		 OddNumber();
 //		 CountNumberSpaceChar();
-//		 CaptalisedFirstWord();
+		 CaptalisedFirstWord();
 //		 Factorial();
 //		Characterfrequency();
 
