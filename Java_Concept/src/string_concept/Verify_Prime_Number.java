@@ -2,7 +2,7 @@ package string_concept;
 
 import java.util.Scanner;
 
-public class Prime_number {
+public class Verify_Prime_Number {
 
 	public static void main(String[] args) {
 		int flag = 0;
