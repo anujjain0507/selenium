@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.21364">
+<testcase classname="TPLAplication Testing" name="To verify TPL home page" time="7.21364">
+<system-out><![CDATA[Given User open the browser and enter the URL...............................passed
+Then Enter the user name and Password.......................................passed
+Then Verify the Home page Title.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

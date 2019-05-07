@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To verify TPL home page",
+        "description": "",
+        "id": "tplaplication-testing;to-verify-tpl-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6493465486,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and enter the URL",
+            "match": {
+              "location": "HomePageStep.user_open_the_browser_and_enter_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 703239287,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the user name and Password",
+            "match": {
+              "location": "HomePageStep.enter_the_user_name_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16935391,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Home page Title",
+            "match": {
+              "location": "HomePageStep.verify_the_Home_page_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TPLAplication Testing",
+    "description": "",
+    "id": "tplaplication-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/jain.anuj/workspace/TPL/src/main/java/com/qa/features/TPL.feature"
+  }
+]
