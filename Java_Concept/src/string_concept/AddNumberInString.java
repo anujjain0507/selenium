@@ -3,16 +3,16 @@ package string_concept;
 public class AddNumberInString {
 
 	public static void main(String[] args) {
-		String input = "12glf;kg;25;dlf15";
-		String number = input.replaceAll("[^0-9.]", "");
-		String num [] = number.split("");
 		int sum = 0;
+		String input = "12glf;kg;25;dlf15";
+		String Number = input.replaceAll("[^0-9.]", "");
+		System.out.println("The Numbers are : " + Number);
+		String[] num = Number.split("");
+		
 		for(String str : num) {
 			int n = Integer.parseInt(str);
-			sum =sum +n;
+			sum = sum + n;
 		}
-		System.out.println(sum);
-
+		System.out.println("Sum of all Number is : " + sum);
 	}
-
 }

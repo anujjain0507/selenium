@@ -63,64 +63,55 @@ formatter.match({
   "location": "HomePageSteps.user_open_the_browser()"
 });
 formatter.result({
-  "duration": 6975481018,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 152432348,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.user_log_into_app()"
 });
 formatter.result({
-  "duration": 597055584,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.validate_logged_in_user_name()"
 });
 formatter.result({
-  "duration": 10183219025,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.verify_the_activity_matrix_link()"
 });
 formatter.result({
-  "duration": 79148076,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.verify_the_inbox_link()"
 });
 formatter.result({
-  "duration": 64363039,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.verify_the_search_link()"
 });
 formatter.result({
-  "duration": 45888,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.verify_the_vendor_tab()"
 });
 formatter.result({
-  "duration": 55748,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageSteps.verify_the_my_profile_tab()"
 });
 formatter.result({
-  "duration": 50818,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenarioOutline({
   "line": 15,
@@ -297,15 +288,13 @@ formatter.match({
   "location": "RegistrationPageSteps.user_click_on_the_Vendor_Registration_Menu()"
 });
 formatter.result({
-  "duration": 1358028030,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "RegistrationPageSteps.click_on_the_add_button()"
 });
 formatter.result({
-  "duration": 525329607,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -333,8 +322,7 @@ formatter.match({
   "location": "RegistrationPageSteps.enter_the_details(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 6694955923,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -346,37 +334,31 @@ formatter.match({
   "location": "RegistrationPageSteps.select_the_activity(String)"
 });
 formatter.result({
-  "duration": 484413440,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "RegistrationPageSteps.submit_the_record()"
 });
 formatter.result({
-  "duration": 2399764114,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "RegistrationPageSteps.close_Transaction()"
 });
 formatter.result({
-  "duration": 987040622,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "RegistrationPageSteps.wait_for_sec()"
 });
 formatter.result({
-  "duration": 4999800520,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "RegistrationPageSteps.open_the_Specific_records()"
 });
 formatter.result({
-  "duration": 1906388103,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003ctd class\u003d\"\" aria-describedby\u003d\"485b5c11-d895-46e1-b3b8-53a2291b1328\" role\u003d\"gridcell\"\u003e...\u003c/td\u003e is not clickable at point (907, 277). Other element would receive the click: \u003clabel class\u003d\"txt1\" for\u003d\"txtActivit...\"\u003eRemark\u003c/label\u003e\n  (Session info: chrome\u003d66.0.3359.181)\n  (Driver info: chromedriver\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027SDF4110IPM096\u0027, ip: \u002710.254.19.60\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir\u003dC:\\Users\\JAIN~1.ANU\\AppData\\Local\\Temp\\scoped_dir7416_29448}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d66.0.3359.181, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: f89063f451049f01ee81d22c932c0c37\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)\r\n\tat com.qa.pages.VendorManualRegPage.select_specific_vendor(VendorManualRegPage.java:98)\r\n\tat com.qa.stepDefinations.RegistrationPageSteps.open_the_Specific_records(RegistrationPageSteps.java:55)\r\n\tat ✽.Then open the Specific records(C:/Users/jain.anuj/git/selenium/CucumberPOM/src/main/java/com/qa/features/dgsl.feature:24)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [

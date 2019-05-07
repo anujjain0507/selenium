@@ -11,7 +11,7 @@ public class Prime_Number {
 
 		for (int i = 2; i <= num; i++) {
 			if(PrimeNumber(i)==true) {
-				System.out.print(i + " ");
+				System.out.print( i + " ");
 			}
 
 		}

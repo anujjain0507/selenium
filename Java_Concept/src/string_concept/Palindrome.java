@@ -5,20 +5,17 @@ import java.util.Scanner;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		String str2= "";
+		String str = "";
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter word to verify that word is palindrome or not");
-		String str = sc.nextLine();
-//		char[] word = str.toCharArray();
-		for (int i = str.length()-1;i>= 0;i--) {
-//			System.out.print(word[i]);
-			str2 = str2 + str.charAt(i);
-//			System.out.println();
+		System.out.println("Enter the string to verify that word is palindrom or not?");
+		String word = sc.nextLine();
+		for (int i = word.length() - 1; i >= 0; i--) {
+			str = str + word.charAt(i);
 		}
-		if(str2.equals(str)) {
-			System.out.println("Is a palindrome");
+		if(str.equals(word)) {
+			System.out.println(word +" : is Palindrom");
 		}else {
-			System.out.println("Not palindrome");
+			System.out.println(word +" : is not Palindrom");
 		}
 	}
 
