@@ -1,4 +1,4 @@
-package com.qa.stepDefinations;
+package com.qa.stepDefination;
 
 import org.junit.Assert;
 
