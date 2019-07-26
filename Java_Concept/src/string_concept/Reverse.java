@@ -306,8 +306,8 @@ public class Reverse {
 //		 SortingAlphabet();
 //		 Total_Number_of_the_three_digit_number();
 //		 OddNumber();
-//		 CountNumberSpaceChar();
-		 CaptalisedFirstWord();
+		 CountNumberSpaceChar();
+//		 CaptalisedFirstWord();
 //		 Factorial();
 //		Characterfrequency();
 

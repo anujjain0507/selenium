@@ -30,7 +30,7 @@ public class Pattern4 {
 				} else {
 					k = k - 1;
 				}
-				System.out.print(k);
+				System.out.print("*");
 			}
 			System.out.println();
 			odd = odd + 2;
